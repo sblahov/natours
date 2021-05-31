@@ -35,6 +35,15 @@
     }
   }
 
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   /* Create button just like our regular button, hidden behind element, when we hover out, hidden pseudo-element goes back behind button */
   &::after {
     /* Must specify content and display properties, even if content is empty */
