@@ -46,7 +46,7 @@ Order: Base > Typography > general layout > grid > page layout > components
     }
   }
 
-  @if $breakpoint == tab-landscape {
+  @if $breakpoint == tab-land {
     @media (max-width: 75em) {
       // 1200 px
       @content;
